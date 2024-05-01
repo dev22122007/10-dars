@@ -1,0 +1,140 @@
+.container {
+    /* Stroke */
+    border: 1px solid rgb(226, 226, 234);
+    border-radius: 16px;
+  
+    .title {
+      padding-bottom: 15.5px;
+      /* Stroke */
+      border-bottom: 1px solid rgb(226, 226, 234);
+    }
+    .timeline {
+      padding-bottom: 15.5px;
+      /* Stroke */
+      border-bottom: 1px solid rgb(226, 226, 234);
+    }
+    background: rgb(248, 248, 248);
+    .textTitle {
+      color: rgb(23, 23, 37);
+      font-family: "Poppins";
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 36px;
+      letter-spacing: 0.1px;
+      text-align: center;
+      img {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+        margin-top: 8px;
+      }
+    }
+    button {
+      border-radius: 10px;
+      padding: 12px 18px;
+      outline: none;
+      /* Primary */
+      background: rgb(0, 98, 255);
+      color: rgb(255, 255, 255);
+      font-family: "Poppins";
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      text-align: left;
+      transition: all 0.5s;
+      &:hover {
+        background: rgb(6, 70, 173);
+        transform: scale(1.02);
+      }
+    }
+    .ShablonSaved:hover {
+      transform: skew(192deg);
+    }
+    .shablonSave {
+      color: rgb(0, 98, 255);
+      font-family: "Poppins";
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+    .messageView {
+      display: flex;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .messageView__text {
+      width: 60%;
+      h1 {
+        color: rgb(23, 23, 37);
+        font-family: "Poppins";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        text-align: left;
+        margin-bottom: 24px;
+      }
+      label {
+        color: rgb(68, 68, 79);
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 8px;
+      }
+      textarea {
+        padding: 22px;
+        border-radius: 0px 4px 4px 4px;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        outline: none;
+        &::placeholder {
+          color: rgb(132, 129, 138);
+          font-family: "Poppins";
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: left;
+          opacity: 0.7;
+        }
+      }
+    }
+    .habar ul li{
+      width: 100%;
+      text-align: center;
+      cursor: pointer;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border-radius:4px;
+      font-family: "Poppins";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+    .messageView__background {
+      width: 40%;
+      background-image: url("../assets/image\ 13.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: -2rem;
+      .linkMessage{
+          max-width: 250px;
+          margin-top: 58%;
+          margin-bottom: 24%;
+          margin-left: 28%;
+          font-size: 14px;
+          border-radius:16px;
+          font-weight: 800;
+          // background:rgb(236, 235, 235);
+      }
+    }
+  }
